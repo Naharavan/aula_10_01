@@ -27,12 +27,12 @@ public class PrimeiroExemploHeranca
         System.out.println("Nome do usuário: " + usuario.getNome());
         //Professor
         System.out.println("");
-        System.out.println("Matrícula do professor: " + usuario.getMatricula());
-        System.out.println("Nome do professor: " + usuario.getNome());
+        System.out.println("Matrícula do professor: " + professor.getMatricula());
+        System.out.println("Nome do professor: " + professor.getNome());
         //Aluno
         System.out.println("");
-        System.out.println("Matrícula do aluno: " + usuario.getMatricula());
-        System.out.println("Nome do aluno: " + usuario.getNome());
+        System.out.println("Matrícula do aluno: " + aluno.getMatricula());
+        System.out.println("Nome do aluno: " + aluno.getNome());
         
     }
 }
