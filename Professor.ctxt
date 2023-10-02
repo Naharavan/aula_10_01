@@ -6,4 +6,6 @@ comment2.params=
 comment2.target=java.lang.String\ getAreaAtuacao()
 comment3.params=are
 comment3.target=void\ setAreaAtuacao(java.lang.String)
-numComments=4
+comment4.params=
+comment4.target=void\ exibeDados()
+numComments=5

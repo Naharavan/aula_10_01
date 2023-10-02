@@ -16,4 +16,13 @@ public class Professor extends Usuario
     {
         areaAtuacao = are;
     }
+    
+    public void exibeDados()
+    {
+        System.out.println("");
+        System.out.println("++++++ Dados do Professor ++++++");
+        super.exibeDados();
+        if(areaAtuacao!=null && !areaAtuacao.isEmpty())
+            System.out.println("Área de Atuação: " + areaAtuacao);
+    }
 }

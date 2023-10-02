@@ -14,6 +14,7 @@ public class SegundoExemploPolimorfismo
                                                 Teclado.leString("Informe o login do professor: "),
                                                 Teclado.leString("Informe a senha do professor: ")
                                             );
+        professor.setAreaAtuacao("Informática");// atribuindo atributo através do método de conficuração
         Aluno aluno = new Aluno(  Teclado.leInt("Informe a matricula do aluno: "),
                                         Teclado.leString("Informe o nome do aluno: "),
                                         Teclado.leString("Informe o login do aluno: "),
