@@ -50,4 +50,12 @@ public class Usuario
         senha = sen;
     }
     
+    public void exibeDados()
+    {
+        System.out.println("");
+        System.out.println("Matrícula: " + matricula);
+        System.out.println("Nome: " + nome);
+        System.out.println("Login: " + login);
+        
+    }
 }
