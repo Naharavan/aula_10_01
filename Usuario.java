@@ -1,10 +1,5 @@
 
-/**
- * Escreva uma descrição da classe Usuaro aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
- */
+
 public class Usuario
 {
     private int matricula;
