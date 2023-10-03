@@ -1,6 +1,6 @@
 
 
-public class Usuario
+public abstract class Usuario
 {
     private int matricula;
     private String nome;
